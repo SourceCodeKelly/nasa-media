@@ -32,6 +32,17 @@ Nav {
   }  
 }
 
-.NewMedia-container {
-  min-height: 90vh;
+.ViewApod {
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .ViewApod-img {
+    max-width: 100%;
+    margin: auto;
+  }
+  .ViewApod-info {
+    padding: 5px;
+  }
 }

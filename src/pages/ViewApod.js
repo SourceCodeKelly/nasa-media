@@ -16,11 +16,18 @@ export default function ViewApod(props) {
   if (!apod) return <h3>Loading...</h3>
 
   return (
-    <div>
-      <img
+    <div className='ViewApod'>
+      <img className='ViewApod-img'
         src={apod.url}
         alt={apod.title}
       />
+      <div className='ViewApod-info'>
+        <p><span>{apod.url}</span></p>
+        <h1>{apod.title}</h1>
+        <p>{apod.date}</p>
+        <p>{apod.explanation}</p>
+        <p>Copyright: {apod.copyright}</p>
+      </div>
     </div>
   )
 }
