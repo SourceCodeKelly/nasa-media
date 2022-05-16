@@ -1,18 +1,22 @@
 import './App.scss';
-import Header from './components/Header';
+import {Routes, Route} from 'react-router-dom'
 import Nav from './components/Nav';
-import NewMedia from './pages/NewMedia';
+import Apod from './pages/Apod';
+import ViewApod from './pages/ViewApod'
 import Footer from './components/Footer';
 
 function App() {
+
   return (
-    <div className="App">
-      <Header/>
+    <div>
       <Nav/>
-      <NewMedia/>
+      <Routes>
+        <Route exact path='/' element={<Apod/>}/>
+        <Route path='/nasaapod' element={<ViewApod/>}/>
+      </Routes>
       <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;

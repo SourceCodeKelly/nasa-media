@@ -10,7 +10,7 @@ export default function Nav() {
             <li className='Nav-item'><Link to='#'>About</Link></li>
             <li className='Nav-item'>
                 <form className='Nav-search'>
-                    <input name='search-input' type='text' value='Search'/>
+                    <input name='search-input' type='text'/>
                     <button name='search-submit'>Send</button>
                 </form>
             </li>
