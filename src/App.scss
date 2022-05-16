@@ -1,0 +1,37 @@
+body {
+  margin: 0 auto;
+}
+.App {
+  text-align: center;
+}
+
+Header {
+  background-color: darkmagenta;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+Nav {
+  color: whitesmoke;
+  margin: 0 auto;
+  position: relative;
+  background-color: slateblue;
+  justify-content: center;
+  .Nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    .Nav-item {
+      display:flex;
+      justify-content: center;
+      padding: 10px;
+      color: whitesmoke;
+      
+    }
+  }  
+}
+
+.NewMedia-container {
+  min-height: 90vh;
+}

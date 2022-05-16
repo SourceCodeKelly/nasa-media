@@ -2,6 +2,11 @@ import React from 'react'
 
 export default function NewMedia() {
   return (
-    <div>NewMedia</div>
+    <main className='New-Media'>
+        <h1>New Media</h1>
+        <section className='NewMedia-container'>
+
+        </section>
+    </main>
   )
 }
