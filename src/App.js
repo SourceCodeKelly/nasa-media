@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div>
+    <div className='Ap'>
       <Nav/>
       <Routes>
         <Route exact path='/' element={<Apod/>}/>

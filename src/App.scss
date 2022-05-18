@@ -1,8 +1,16 @@
 body {
   margin: 0 auto;
+  background-color: rgb(20, 5, 66);
+  color: white;
 }
+
+span {
+  color: goldenrod;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  justify-content: center;
 }
 
 Header {
@@ -12,10 +20,9 @@ Header {
 }
 
 Nav {
-  color: whitesmoke;
   margin: 0 auto;
   position: relative;
-  background-color: slateblue;
+  background-color: rgb(132, 6, 132);
   justify-content: center;
   .Nav-list {
     display: flex;
@@ -26,23 +33,98 @@ Nav {
       display:flex;
       justify-content: center;
       padding: 10px;
-      color: whitesmoke;
-      
+      transition: 0.5s;
+      .Nav-link {
+        text-decoration: none;
+        color: whitesmoke;
+        text-shadow: 2px 2px black;
+      }
+    }
+    .Nav-item:hover {
+      background-color: crimson;;
+      transition: 0.5s;
+      .Nav-link {
+        color: yellow;
+        text-shadow: 2px 2px black;
+      }
     }
   }  
 }
 
+.Apod {
+  max-width: 100%;
+  min-width: none;
+  margin: 0 auto;
+  font-size: large;
+  .Apod-btn {
+    min-height: 20vh;
+    text-align: center;
+    justify-content: center;
+    margin: 40vh auto;
+    .Apod-view {
+      background-color: red;
+      border-radius: 10px;
+      max-width: 100px;
+      text-shadow: 2px 3px black;
+      box-shadow: 1px 3px yellow;
+      padding: 5%;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+  }
+  .Apod-view:hover {
+    border-radius: 100%;
+    background-color: green;
+    color: yellow;
+    text-shadow: 2px 1px black;
+    box-shadow: 1px 3px yellow;
+    transition: 0.5s;
+  }
+
+}
+
 .ViewApod {
   margin: 0 auto;
+  max-width: 100%;
+  min-width: none;
   padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  .ViewApod-img {
+  .ViewApod-image {
     max-width: 100%;
-    margin: auto;
+    min-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    .ViewApod-img {
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .ViewApod-href {
+      text-align: center;
+      flex-direction: row;
+      margin: 0 auto;
+      max-width: 100%;
+    }
   }
   .ViewApod-info {
+    max-width: 100%;
+    min-width: none;
     padding: 5px;
+    color: whitesmoke;
+    .ViewApod-title {
+      color: crimson;
+    }
+    .ViewApod-date {
+      color: goldenrod;
+    }
+    .ViewApod-copyright {
+      color: goldenrod;
+    }
   }
 }

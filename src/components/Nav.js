@@ -5,9 +5,9 @@ export default function Nav() {
   return (
     <nav className='Nav'>
         <ul className='Nav-list'>
-            <li className='Nav-item'><Link to='/'>Home</Link></li>
-            <li className='Nav-item'><Link to='#'>Albums</Link></li>
-            <li className='Nav-item'><Link to='#'>About</Link></li>
+            <li className='Nav-item'><Link to='/' className='Nav-link'>Home</Link></li>
+            <li className='Nav-item'><Link to='#' className='Nav-link'>Albums</Link></li>
+            <li className='Nav-item'><Link to='#' className='Nav-link'>About</Link></li>
             <li className='Nav-item'>
                 <form className='Nav-search'>
                     <input name='search-input' type='text'/>
