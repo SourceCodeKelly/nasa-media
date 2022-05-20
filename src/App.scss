@@ -57,11 +57,16 @@ Nav {
   min-width: none;
   margin: 0 auto;
   font-size: large;
+  .Apod-container {
+    text-align: center;
+    margin-top: 20vh;
+    color: gold;
+  }
   .Apod-btn {
     min-height: 20vh;
     text-align: center;
     justify-content: center;
-    margin: 40vh auto;
+    margin: 20vh auto;
     .Apod-view {
       background-color: red;
       border-radius: 10px;
