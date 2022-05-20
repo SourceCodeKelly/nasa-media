@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Apod from './pages/Apod';
 import ViewApod from './pages/ViewApod'
 import Footer from './components/Footer';
+import Gallery from './pages/Gallery';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Apod/>}/>
         <Route path='/nasaapod' element={<ViewApod/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
       </Routes>
       <Footer/>
     </div>
