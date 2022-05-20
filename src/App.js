@@ -6,10 +6,12 @@ import ViewApod from './pages/ViewApod'
 import Footer from './components/Footer';
 import Gallery from './pages/Gallery';
 
+
 function App() {
+  
 
   return (
-    <div className='Ap'>
+    <div className='App' style={{backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Starsinthesky.jpg/1280px-Starsinthesky.jpg')`}}>
       <Nav/>
       <Routes>
         <Route exact path='/' element={<Apod/>}/>

@@ -2,11 +2,11 @@ import React, {useEffect, useState} from 'react'
 
 export default function ViewApod(props) {
   const [apod, setApod] = useState(null) 
-  const url = `https://api.nasa.gov/planetary/apod?api_key=${process.env.REACT_APP_APOD_API_KEY}`
+  const URL = `https://api.nasa.gov/planetary/apod?api_key=${process.env.REACT_APP_APOD_API_KEY}`
 
   useEffect(() => {
     async function getApod(){
-      const res = await fetch(url)
+      const res = await fetch(URL)
       const data = await res.json()
       setApod(data)
     } 

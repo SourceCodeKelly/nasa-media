@@ -11,6 +11,7 @@ span {
 .App {
   text-align: left;
   justify-content: center;
+  background-size: cover;
 }
 
 Header {
@@ -32,7 +33,7 @@ Nav {
     .Nav-item {
       display:flex;
       justify-content: center;
-      padding: 10px;
+      padding: 10px 20px;
       transition: 0.5s;
       .Nav-link {
         text-decoration: none;
@@ -92,6 +93,7 @@ Nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
   .ViewApod-image {
     max-width: 100%;
     min-width: none;
@@ -127,4 +129,18 @@ Nav {
       color: goldenrod;
     }
   }
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(21, 20, 20);
+  padding: 40px;
+  .Footer-link {
+    text-decoration: none;
+
+  }
+}
+
+.Gallery {
+  min-height: 90vh;
 }
