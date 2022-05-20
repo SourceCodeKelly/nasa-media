@@ -6,8 +6,8 @@ export default function Nav() {
     <nav className='Nav'>
         <ul className='Nav-list'>
             <li className='Nav-item'><Link to='/' className='Nav-link'>Home</Link></li>
-            <li className='Nav-item'><Link to='/gallery' className='Nav-link'>Search Gallery</Link></li>
-            <li className='Nav-item'><Link to='/about' className='Nav-link'>About</Link></li>
+            <li className='Nav-item'><Link to='/gallery' className='Nav-link'>Gallery</Link></li>
+            <li className='Nav-item'><Link to='/about' className='Nav-link'>Wildfires</Link></li>
         </ul>
     </nav>
   )

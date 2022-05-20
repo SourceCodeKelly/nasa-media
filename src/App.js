@@ -5,7 +5,7 @@ import Apod from './pages/Apod';
 import ViewApod from './pages/ViewApod'
 import Footer from './components/Footer';
 import Gallery from './pages/Gallery';
-import About from './pages/About';
+import Wildfires from './pages/Wildfires';
 
 function App() {
   
@@ -17,7 +17,7 @@ function App() {
         <Route exact path='/' element={<Apod/>}/>
         <Route path='/nasaapod' element={<ViewApod/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
-        <Route path='/about' element={<About/>}/>
+        <Route path='/wildfires' element={<Wildfires/>}/>
       </Routes>
       <Footer/>
     </div>
