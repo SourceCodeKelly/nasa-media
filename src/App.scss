@@ -142,5 +142,34 @@ footer {
 }
 
 .Gallery {
-  min-height: 90vh;
+  min-height: 100%;
+  text-align: center;
+  color: gold;
+  .Gallery-container {
+    min-height: 40vh;
+    margin: 30vh 0 20vh 0;
+    h1 {
+      font-size: 50px;
+    }
+    form {
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      input {
+        width: 500px;
+        height: 30px;
+        min-width: none;
+        border: 2px solid purple;
+      }
+    }
+  }
+}
+
+.About {
+  min-height: 80vh;
+  text-align: center;
+  h1 {
+    font-size: 50px;
+  }
 }
