@@ -2,9 +2,9 @@
 React app to view NASA images and a "Picture of the Day".
 
 # Technologies Used
-> React
-> APIs
-> Flexbot
+> React<br>
+> APIs<br>
+> Flexbot<br>
 > SASS
 
 # Getting Started
